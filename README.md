@@ -8,7 +8,9 @@ operation in place with no other auxiliary structure).<p>
 Example:<p>
 Input: “User is not allowed      “, 19<p>
 Output: “User&32is&32not&32allowed”<p>
-Solution: https://github.com/cassiothi/C_Questoes/tree/master/questao1
+Solution: https://github.com/cassiothi/C_Questoes/tree/master/questao1 <p>
+Time complexity: O(n²) <p>
+Space complexity: O(1)
 
 # 2. Check words with jumbled letters :
 Our brain can read texts even if letters are jumbled, like the following sentence:  “Yuo
@@ -23,7 +25,9 @@ probably, porbalby ­> true<p>
 despite, desptie ­> true<p>
 moon, nmoo ­> false<p>
 misspellings, mpeissngslli ­> false<p>
-Solution: https://github.com/cassiothi/C_Questoes/tree/master/questao2
+Solution: https://github.com/cassiothi/C_Questoes/tree/master/questao2 <p>
+Time complexity: O(n)<p>
+Space complexity: O(1)
 
 # 3. Check words with typos:
 There are three types of typos that can be performed on strings: insert a character,
@@ -34,7 +38,9 @@ pale, ple ­> true<p>
 pales, pale ­> true<p>
 pale, bale ­> true<p>
 pale, bake ­> false<p>
-Solution: https://github.com/cassiothi/C_Questoes/tree/master/questao3
+Solution: https://github.com/cassiothi/C_Questoes/tree/master/questao3 <p>
+Time complexity: O(n)<p>
+Space complexity: O(1)
 
 # 4. [Android] Search on a list:
 Write an application with one activity that shows a list of items and a search box. The
@@ -47,7 +53,9 @@ When different email clients are used on a same thread, the discussion get messy
 because old messages are included again and get duplicated. Given a email thread
 (represented by a singly unsorted linked list of messages), write a function that
 remove duplicated messages from it.<p>
-Solution: https://github.com/cassiothi/C_Questoes/tree/master/questao5
+Solution: https://github.com/cassiothi/C_Questoes/tree/master/questao5 <p>
+Time complexity: O(n)<p>
+Space complexity: O(n)
 
 # 6. [Android] Email processor service:
 Write an application with one service (no activities) that receive requests from other
@@ -62,4 +70,6 @@ previous service could be improved to process only the difference between them.
 Write a method that receives two singly linked lists and return the intersecting node
 of the two lists (if exists). Note that the intersection is defined by reference, not value.
 (No need to change previous answer).<p>
-Solution: https://github.com/cassiothi/C_Questoes/tree/master/questao7
+Solution: https://github.com/cassiothi/C_Questoes/tree/master/questao7 <p>
+Time complexity: O(n)<p>
+Space complexity: O(n)
